@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-image: url("connect4.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: rgb(16, 12, 31); /* fallback before image loads */
+}
+
+h1 {
+	text-align: left;
+	color: white;
+
+	font-size: 30pt;
+	font-family: "Copperplate Gothic";
+	font-style: italic;
+	font-weight: bold;
+
+	
+	width: 290px;
+	margin: auto;
+}
+
+#myCanvas
+{
+	opacity: 0.7;
+	background-image: url("canvas.png");
+    
+}
+
+footer{
+    color: white;
+}
+
+
+#player
+{	
+	font-style: oblique;
+    color: blue;
+    background-color: white;
+    width: 400px;
+    font-size: 30pt;
+}

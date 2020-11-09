@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Connect4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="Connect4.js" defer></script>
+        <script src="matchrow.js" defer></script>
+        <script src="Constant.js" defer></script>
+        <audio id="myAudio">
+            <source src="drop.mp3" type="audio/mp3">
+        </audio>
+        <audio id="winner">
+            <source src="Winner.mp3" type="audio/mp3">
+        </audio>
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        
+    </head>
+    <body>
+        <h1>CONNECT4</h1>
+        <div id="player">
+                Turns : <span id="player_one_turn">0</span>
+        </div>
+        <canvas id="myCanvas" ></canvas>
+        <br><button id="reset" onclick="Restart()">Reset</button></br>
+    </body>
+    <footer>
+        Copyright &copy; 2020: Deepak Kumar
+            <br><a style="color: white;"href="https://github.com/d045k281-js/Connect4-368">Github Respository</a><br>
+    </footer>
+</html>
